@@ -11,10 +11,10 @@ void loop()
   
    if(humedad < 500)
    {
-      Serial.println("Planta húmeda");  
+      Serial.println("Planta húmeda");    //Numero inferior a 500
       //hacer las acciones necesarias
    }else{
-   Serial.println("Planta seca");
+   Serial.println("Planta seca");//Numero superior a 500
  
   regar=true;
   tiempoRiego=1000; //Milisegundos que se va a encender la bomba
