@@ -21,3 +21,20 @@ Cada usuario deberá añadir sus ficheros al proyecto teniendo en cuenta varias 
 * Se debe evitar esperas activas. Esto es, no usar *delay()*. En su lugar, se debe realizar temporizaciones tomando el tiempo actual ( usando ```unsigned long miTemp = millis()```) y comprobar si se ha superado el tiempo deseado de este modo:
 
 		if( millis() > miTemp + DELAY)
+		
+## Configurar entorno Arduino para ESP32
+
+El Arduino no tiene soporte de serie para ESP32.
+Para poder usarlo, instalaremos la librería / compilador de este microcontrolador. Se necesita Python para instalarlo.
+Descargalo de [Python2.7](https://www.python.org/downloads/release/python-2715/)
+Instala el Python, con valores predeterminados.
+Luego instalamos el [GIT](https://git-scm.com/download/win)
+Terinamos con la librería de hardware ESP32, usando el GIT. Abre la ventana de comandos, accede a ~/Documentos/Arduino/hardware y clona el repo GIT:
+
+		git clone https://github.com/espressif/arduino-esp32.git
+
+Al terminar, asegurate de que la carpera que has descargado tiene una subcarpeta ```espressif\esp32\tools``` de modo que quede en tu carpeta de usaurio ```~\Documents\Arduino\hardware\espressif\esp32\tools```
+
+Para terminar entra en esa carpeta, ejecuta get.exe. Al terminar estará instalado. Reinicia el Arduino y ya puedes usarlo.
+
+[Fuente](https://www.prometec.net/instalando-esp32/)
