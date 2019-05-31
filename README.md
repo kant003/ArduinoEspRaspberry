@@ -3,6 +3,7 @@
 ## Sistemas Informáticos. Raspberry PI
 Servidores montados en Raspbery PI [Ver hoja práctica](https://docs.google.com/presentation/d/1SLa452j-mQ8wyZaIyg5jDmb8VSSN3wDr2zAyWz1mZtg/edit?usp=sharing)
 
+- [Gonzalo Alonso Castro](/gonzaloAlonsoCastro)
 - [enlace a un subdirectorio de github, tu nombre](http://www.abc.net)
 - [enlace a un subdirectorio de github, tu nombre](http://www.abc.net)
 
