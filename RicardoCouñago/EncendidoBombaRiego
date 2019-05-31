@@ -1,0 +1,32 @@
+ 
+int pinBomba = 14; //Este pin habrá que cambiarlo dependiendo de la placa.
+unsigned int inicio=millis();
+boolean regar=false; //Cambiar a true para iniciar el riego
+unsigned int tiempoRiego=0;  //Tiempo que la bomba estará encendida
+
+void setup() {
+  pinMode(pinBomba, OUTPUT); //Definicion del pin en modo Output
+}
+
+
+//Funcion que activa la bomba el tiempo pasado en milisegundos.
+void activarBomba(boolean encendido){
+  if(encendido){
+    digitalWrite(pinBomba, HIGH);
+  }else{
+    digitalWrite(pinBomba, LOW);
+  }
+}
+
+void loop() {
+
+  //Este parte del código habrá que ponerla en el loop general
+  curtime=millis();
+  if(regar && (curtime<tiempoRiego+inicio)){
+    activarBomba(true);
+  }else{
+    regar=false;  //regar se cambia a false pasado el tiempo para que se corte el riego
+    tiempoRiego=0;  //se resetea el tiempo a 0
+  }
+ 
+}
