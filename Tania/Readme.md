@@ -29,6 +29,8 @@ la medición como valor analógico, activada cuando la humedad supera un cierto 
 
 ### Una vez terminado,tan solo tienes que abrir el navegador y poner la direccion 10.101.3.200/adminer.php, te logueas con el usuario:pi, y la contraseña:raspberry200, a continuacion creas una base de datos nueva con el nombre Piwigo, la colocacion deberá ser utf8_general_ci y guardamos.
 
+![Texto alternativo](C:\Users\Primero DAM\Desktop\DAM 1 TANIA\TERCERA AVALIACION\ENTORNOS\Raspberry/uno.png)
+
 ### Toca ahora instalar Piwigo para ello entramos en la siguiente direccion: 10.101.3.200/piwigo/installl.php, una vez allí tendremos que completar los datos de configuracion, que seran los siguientes:
 * Idioma por defecto --> Español.
 * Usuario de la Base de Datos --> pi.
