@@ -15,6 +15,6 @@ Sistema de riego y control automatizado online [Ver hoja práctica](https://docs
 - [Javier Alvarez Rial](https://github.com//)
 - [Gonzalo Alonso Castro](https://github.com/gonAlonso/PracticasArduinoCEBEM2019)
 - [Tania Linares Boo](https://github.com/tanialeee/EjerciciosArduino)
-- [enlace a un subdirectorio de github, tu nombre](http://www.abc.net)
+- [Xacobe Cimadevila Moreno y Jorge Prieto Loimil](https://github.com/xacobecm/EjerciciosArduino)
 - [enlace a un subdirectorio de github, tu nombre](http://www.abc.net)
 
