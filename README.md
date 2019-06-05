@@ -9,8 +9,10 @@ Servidores montados en Raspbery PI [Ver hoja práctica](https://docs.google.com/
 
 
 ## Entornos de desarrollo. Arduino y ESP
-Sistema de riego y control automatizado online [Ver hoja práctica](https://docs.google.com/document/d/1SC7DdUTaHDxf4X1nIJmg03g4w0MTwMiJViOqJMkAnUk/edit?usp=sharing)
 
+### Sistema de riego y control automatizado online [Ver hoja práctica](https://docs.google.com/document/d/1SC7DdUTaHDxf4X1nIJmg03g4w0MTwMiJViOqJMkAnUk/edit?usp=sharing)
+
+### Codigo particular de cada alumno
 - [Yago Lopez Cameselle](https://github.com/Yagatus/PruebasArduino)
 - [Javier Alvarez Rial](https://github.com//)
 - [Gonzalo Alonso Castro](https://github.com/gonAlonso/PracticasArduinoCEBEM2019)
