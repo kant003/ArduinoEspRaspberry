@@ -20,5 +20,6 @@ Servidores montados en Raspbery PI [Ver hoja práctica](https://docs.google.com/
 - [Tania Linares Boo](https://github.com/tanialeee/EjerciciosArduino)
 - [Xacobe Cimadevila Moreno y Jorge Prieto Loimil](https://github.com/xacobecm/EjerciciosArduino)
 - [Miguel Gomez](https://github.com/kant003/ArduinoEspRaspberry/blob/master/MiguelGomez/arduinoHaCaido.md)
+- [Ricardo Couñago Iglesias] (https://github.com/RicardoCounago/PracticaArduino)
 - [enlace a un subdirectorio de github, tu nombre](http://www.abc.net)
 
