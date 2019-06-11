@@ -1,0 +1,56 @@
+Durante nuestro proyecto de clase para aplicar Arduino a una planta decidí encargarme de programar una pantalla LCD para que mandara 
+mensajes según recibiera información de otros proyecto Arduino de otros miembros de nuestra clase, y aunque esto de momento no está
+realizado, sí que conseguí hacer un buen código 1.0 para imprimir mensajes en intervalos de tiempo y en las líneas que necesitaramos.
+
+El código utiliizado es el siguiente:
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+/*Hace falta tener instalada la librería LCD y Liquid Crystal para que funcione. */
+
+#include <Wire.h>
+#include <LCD.h>
+#include <LiquidCrystal_I2C.h>
+
+#define I2C_ADDR    0x27
+
+LiquidCrystal_I2C             lcd(I2C_ADDR,2, 1, 0, 4, 5, 6, 7);
+void setup()
+   {
+     lcd.begin (20,4);    // Inicializar el display con 16 caraceres 2 lineas
+       lcd.setBacklightPin(3,POSITIVE);
+       lcd.setBacklight(HIGH);
+
+       String Status = "";
+       
+   }
+void loop() 
+   {
+
+    lcd.clear();
+
+    lcd.home ();                   // Insertar texto en la primera línea (limite 20 caracteres)
+       lcd.print("PLANTA-CHAN");
+       lcd.setCursor ( 0, 1);        // Insertar texto en la segunda línea (limite 20 caracteres)
+       lcd.print("ESTADO DE:");
+       lcd.setCursor ( 0, 2);        // Insertar texto en la tercera línea (limite 20 caracteres)
+       lcd.print("YAY, THANK YOU");
+       lcd.setCursor ( 0, 3);        // Insertar texto en la cuarta línea (limite 20 caracteres)
+       lcd.print("CUIDADOR SENPAI! UWU");
+
+       delay(10000);
+
+     lcd.clear();
+
+     lcd.home ();                   // Insertar texto en la primera línea (limite 20 caracteres)
+       lcd.print("PLANTA-CHAN");
+       lcd.setCursor ( 0, 1);        // Insertar texto en la segunda línea (limite 20 caracteres)
+       lcd.print("ESTADO DE:");
+       lcd.setCursor ( 0, 2);        // Insertar texto en la tercera línea (limite 20 caracteres)
+       lcd.print("NO ME ENCUENTRO BIEN");
+       lcd.setCursor ( 0, 3);        // Insertar texto en la cuarta línea (limite 20 caracteres)
+       lcd.print("SENIOR STARK. UWU");
+
+      delay(10000);
+       
+    }
