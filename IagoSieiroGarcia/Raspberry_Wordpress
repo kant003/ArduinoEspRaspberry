@@ -1,0 +1,24 @@
+Durante nuestras prácticas aprendiendo a usar la Raspberry cada uno de nosotros instaló un servicio en la mencionada máquina para poder
+lanzarlo desde ella. Mi elección fue la de WordPress, ya que había trabajado en el programa anteriormente.
+
+Esto me exigía que la Raspberry tuviese tanto Apache como MySql instalados, por suerte esta situación se dió gracias a que el llamado 
+sistema LAMP es algo bastante común en estas máquinas y era una de las tareas que teníamos pendientes de realizar.
+
+Con esto en mente me dispuse a buscar la información que necesitaba para instalar en la Raspberry que estaba utilizando (10.101.3.200)
+la página WordPress. El tutorial que seguí en internet fue el siguiente:
+
+
+https://www.silocreativo.com/instalar-wordpress-raspberry-pi/
+
+Procedí a descargame los archivos de Wordpress de internet en nuestra Raspberry con un "sudo apt install", podría haberle creado una 
+carpeta propia, pero visto que el programa ya lo hacía por mí no le dí muchas más vueltas. Me cree una base de datos en MySql para guardar
+la información necesaria y seguí con el proceso, ahora, descomprimiendo el archivo que me había descargado e instalandolo correctamente en 
+el procesador, esto llevó un tiempo, pero se realizó sin problemas (salvo el par de veces en los que se inundó la carpeta principal de
+información, pero a base de prueba y error lo dí hecho.)
+
+Cuando todo el proceso acabó y WordPress estuvo instalado en la Raspberry le dí acceso a Apache para poder trabajar con uno de sus servidores
+, cree una pequeña página introductoria para la clase y cree el perfil adecuado para el programa.
+
+Esta información y la página creada la podéis ver a través de este enlace:
+
+http://10.101.3.200/wordpress
