@@ -1,0 +1,21 @@
+const int sensorPin = A0;
+ 
+void setup() {
+   Serial.begin(9600);
+}
+ 
+void loop() 
+{
+   int humedad = analogRead(sensorPin);
+   if(humedad < 500)
+   {
+      Serial.println("La planta está húmeda.");
+   } else{
+   Serial.println("La planta está seca.");
+ 
+  regar=true;
+  tiempoRiego=1000; //Milisegundos que se va a encender la bomba para regar la planta
+   }
+   delay(1000);
+}
+
