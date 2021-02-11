@@ -1,0 +1,23 @@
+Temperatura Ambiente
+
+char degree = 176;
+void setup()
+{
+  pinMode(A0,INPUT);
+  Serial.begin(9600);
+}
+
+
+void loop()
+{
+  int tmp = analogRead(A0);
+  float voltage = (tmp * 5.0)/1024;
+  float milliVolt = voltage * 1000;
+  float tmpCel =  (milliVolt-500)/10 ;
+  
+
+  Serial.print("Celsius: ");
+  Serial.print(tmpCel);
+  Serial.println(degree);
+  delay(1000);
+} 
